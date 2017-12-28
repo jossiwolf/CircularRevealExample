@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">192dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="rounded_color_size">48dp</dimen>
+    <dimen name="recycler_item_text_margin">16dp</dimen>
+    <dimen name="rounded_color_margin">8dp</dimen>
+    <dimen name="recycler_item_text_size">16sp</dimen>
+    <dimen name="recycler_item_min_width">410dp</dimen>
+</resources>

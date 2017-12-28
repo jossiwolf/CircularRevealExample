@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:minWidth="@dimen/recycler_item_min_width">
+
+    <TextView
+        android:id="@+id/text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/recycler_item_text_margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/recycler_item_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/roundedColorView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488"
+        tools:text="My list item" />
+
+    <de.jw.circularrevealsharedelementexample.ui.RoundedColorView
+        android:id="@+id/roundedColorView"
+        android:layout_width="@dimen/rounded_color_size"
+        android:layout_height="@dimen/rounded_color_size"
+        android:layout_marginBottom="@dimen/rounded_color_margin"
+        android:layout_marginStart="@dimen/rounded_color_margin"
+        android:layout_marginTop="@dimen/rounded_color_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundColor="#339966" />
+
+</android.support.constraint.ConstraintLayout>
